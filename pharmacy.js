@@ -1,4 +1,5 @@
-import { MIN_BENEFIT, MAX_BENEFIT } from "../constants/index.js";
+import { MIN_BENEFIT, MAX_BENEFIT } from "./constants/index.js";
+
 export class Drug {
   constructor(
     name,
@@ -62,8 +63,23 @@ export class Drug {
       this.updateBenefit();
     }
 
-    return this;
+    return {
+      name: this.name,
+      expiresIn: this.expiresIn,
+      benefit: this.benefit,
+    };
   }
 }
 
-export default Drug;
+export class Pharmacy {
+  constructor(drugs = []) {
+    this.drugs = drugs;
+  }
+  updateBenefitValue() {
+    this.drugs.forEach((drug) => {
+      drug.updateForNextDay();
+    });
+
+    return this.drugs;
+  }
+}

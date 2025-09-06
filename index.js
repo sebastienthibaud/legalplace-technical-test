@@ -1,5 +1,4 @@
-import Pharmacy from "./model/Pharmacy";
-import Drug from "./model/Drug";
+import { Pharmacy, Drug } from "./pharmacy";
 import drugsList from "./data/drugsList";
 
 import fs from "fs";
@@ -20,7 +19,15 @@ const pharmacy = new Pharmacy(drugs);
 const log = [];
 
 for (let elapsedDays = 0; elapsedDays < 30; elapsedDays++) {
-  log.push(JSON.parse(JSON.stringify(pharmacy.updateBenefitValue())));
+  const pharmacyValues = pharmacy.updateBenefitValue();
+
+  const sanitizedDrugsValues = pharmacyValues.map((drug) => ({
+    name: drug.name,
+    expiresIn: drug.expiresIn,
+    benefit: drug.benefit,
+  }));
+
+  log.push(JSON.parse(JSON.stringify(sanitizedDrugsValues)));
 }
 
 /* eslint-disable no-console */
