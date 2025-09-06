@@ -1,12 +1,19 @@
 import Pharmacy from "./model/Pharmacy";
 import Drug from "./model/Drug";
-import drugsList from "./config/drugsList";
+import drugsList from "./data/drugsList";
 
 import fs from "fs";
 
 const drugs = drugsList.map(
   (drug) =>
-    new Drug(drug.name, drug.expiresIn, drug.benefit, drug.neverExpires),
+    new Drug(
+      drug.name,
+      drug.expiresIn,
+      drug.benefit,
+      drug.degradationRules,
+      drug.reverseDegradation,
+      drug.benefitDropToZeroAfterExpiration,
+    ),
 );
 const pharmacy = new Pharmacy(drugs);
 
