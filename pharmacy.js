@@ -24,7 +24,7 @@ export class Drug {
 
     if (this.degradationRules.length > 0) {
       return this.degradationRules
-        .filter((rule) => this.expiresIn <= rule.daysBeforeExpiry)
+        .filter((rule) => this.expiresIn < rule.daysBeforeExpiry)
         .sort((a, b) => a.daysBeforeExpiry - b.daysBeforeExpiry)[0];
     }
   }
@@ -34,6 +34,10 @@ export class Drug {
   }
 
   updateBenefit() {
+    if (this.name === "Doliprane") {
+      console.log({ degradation });
+    }
+
     if (this.benefitDropToZeroAfterExpiration && this.expiresIn < 0) {
       this.benefit = 0;
       return;

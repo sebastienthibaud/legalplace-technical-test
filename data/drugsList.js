@@ -6,7 +6,7 @@ export const drugsList = [
     expiresIn: 20,
     benefit: 30,
     defaultBenefitDegradation: -1,
-    degradationRules: DefaultDegradationRules,
+    degradationRules: [DefaultDegradationRules],
   },
   {
     name: "Herbal Tea",
@@ -40,7 +40,7 @@ export const drugsList = [
     expiresIn: 5,
     benefit: 20,
     defaultBenefitDegradation: -2,
-    degradationRules: DefaultDegradationRules,
+    degradationRules: [DefaultDegradationRules],
   },
 ];
 

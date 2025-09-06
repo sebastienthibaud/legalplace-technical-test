@@ -3,8 +3,8 @@
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 19,
+        "benefit": 29
       },
       {
         "name": "Herbal Tea",
@@ -23,15 +23,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": 4,
+        "benefit": 18
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 18,
+        "benefit": 28
       },
       {
         "name": "Herbal Tea",
@@ -41,7 +41,7 @@
       {
         "name": "Fervex",
         "expiresIn": 10,
-        "benefit": 38
+        "benefit": 37
       },
       {
         "name": "Magic Pill",
@@ -50,15 +50,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": 3,
+        "benefit": 16
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 17,
+        "benefit": 27
       },
       {
         "name": "Herbal Tea",
@@ -68,7 +68,7 @@
       {
         "name": "Fervex",
         "expiresIn": 9,
-        "benefit": 40
+        "benefit": 39
       },
       {
         "name": "Magic Pill",
@@ -77,15 +77,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": 2,
+        "benefit": 14
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 16,
+        "benefit": 26
       },
       {
         "name": "Herbal Tea",
@@ -95,7 +95,7 @@
       {
         "name": "Fervex",
         "expiresIn": 8,
-        "benefit": 42
+        "benefit": 41
       },
       {
         "name": "Magic Pill",
@@ -104,15 +104,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": 1,
+        "benefit": 12
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 15,
+        "benefit": 25
       },
       {
         "name": "Herbal Tea",
@@ -122,7 +122,7 @@
       {
         "name": "Fervex",
         "expiresIn": 7,
-        "benefit": 44
+        "benefit": 43
       },
       {
         "name": "Magic Pill",
@@ -131,15 +131,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": 0,
+        "benefit": 10
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 14,
+        "benefit": 24
       },
       {
         "name": "Herbal Tea",
@@ -149,7 +149,7 @@
       {
         "name": "Fervex",
         "expiresIn": 6,
-        "benefit": 46
+        "benefit": 45
       },
       {
         "name": "Magic Pill",
@@ -158,15 +158,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -1,
+        "benefit": 8
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 13,
+        "benefit": 23
       },
       {
         "name": "Herbal Tea",
@@ -176,7 +176,7 @@
       {
         "name": "Fervex",
         "expiresIn": 5,
-        "benefit": 49
+        "benefit": 47
       },
       {
         "name": "Magic Pill",
@@ -185,15 +185,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -2,
+        "benefit": 6
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 12,
+        "benefit": 22
       },
       {
         "name": "Herbal Tea",
@@ -212,15 +212,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -3,
+        "benefit": 4
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 11,
+        "benefit": 21
       },
       {
         "name": "Herbal Tea",
@@ -239,20 +239,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -4,
+        "benefit": 2
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 10,
+        "benefit": 20
       },
       {
         "name": "Herbal Tea",
         "expiresIn": 0,
-        "benefit": 16
+        "benefit": 15
       },
       {
         "name": "Fervex",
@@ -266,20 +266,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -5,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 9,
+        "benefit": 19
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -1,
-        "benefit": 18
+        "benefit": 17
       },
       {
         "name": "Fervex",
@@ -293,20 +293,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -6,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 8,
+        "benefit": 18
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -2,
-        "benefit": 20
+        "benefit": 19
       },
       {
         "name": "Fervex",
@@ -320,20 +320,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -7,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 7,
+        "benefit": 17
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -3,
-        "benefit": 22
+        "benefit": 21
       },
       {
         "name": "Fervex",
@@ -347,20 +347,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -8,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 6,
+        "benefit": 16
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -4,
-        "benefit": 24
+        "benefit": 23
       },
       {
         "name": "Fervex",
@@ -374,20 +374,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -9,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 5,
+        "benefit": 15
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -5,
-        "benefit": 26
+        "benefit": 25
       },
       {
         "name": "Fervex",
@@ -401,20 +401,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -10,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 4,
+        "benefit": 14
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -6,
-        "benefit": 28
+        "benefit": 27
       },
       {
         "name": "Fervex",
@@ -428,20 +428,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -11,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 3,
+        "benefit": 13
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -7,
-        "benefit": 30
+        "benefit": 29
       },
       {
         "name": "Fervex",
@@ -455,20 +455,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -12,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 2,
+        "benefit": 12
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -8,
-        "benefit": 32
+        "benefit": 31
       },
       {
         "name": "Fervex",
@@ -482,20 +482,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -13,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 1,
+        "benefit": 11
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -9,
-        "benefit": 34
+        "benefit": 33
       },
       {
         "name": "Fervex",
@@ -509,20 +509,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -14,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": 0,
+        "benefit": 10
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -10,
-        "benefit": 36
+        "benefit": 35
       },
       {
         "name": "Fervex",
@@ -536,20 +536,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -15,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -1,
+        "benefit": 8
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -11,
-        "benefit": 38
+        "benefit": 37
       },
       {
         "name": "Fervex",
@@ -563,20 +563,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -16,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -2,
+        "benefit": 6
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -12,
-        "benefit": 40
+        "benefit": 39
       },
       {
         "name": "Fervex",
@@ -590,20 +590,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -17,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -3,
+        "benefit": 4
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -13,
-        "benefit": 42
+        "benefit": 41
       },
       {
         "name": "Fervex",
@@ -617,20 +617,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -18,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -4,
+        "benefit": 2
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -14,
-        "benefit": 44
+        "benefit": 43
       },
       {
         "name": "Fervex",
@@ -644,20 +644,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -19,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -5,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -15,
-        "benefit": 46
+        "benefit": 45
       },
       {
         "name": "Fervex",
@@ -671,20 +671,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -20,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -6,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -16,
-        "benefit": 48
+        "benefit": 47
       },
       {
         "name": "Fervex",
@@ -698,20 +698,20 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -21,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -7,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
         "expiresIn": -17,
-        "benefit": 50
+        "benefit": 49
       },
       {
         "name": "Fervex",
@@ -725,15 +725,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -22,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -8,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -752,15 +752,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -23,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -9,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -779,15 +779,15 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -24,
+        "benefit": 0
       }
     ],
     [
       {
         "name": "Doliprane",
-        "expiresIn": 20,
-        "benefit": 30
+        "expiresIn": -10,
+        "benefit": 0
       },
       {
         "name": "Herbal Tea",
@@ -806,8 +806,8 @@
       },
       {
         "name": "Dafalgan",
-        "expiresIn": 5,
-        "benefit": 20
+        "expiresIn": -25,
+        "benefit": 0
       }
     ]
   ]
