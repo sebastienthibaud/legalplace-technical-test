@@ -1,13 +1,13 @@
-import { Drug, Pharmacy } from "./pharmacy";
+import Pharmacy from "./model/Pharmacy";
+import Drug from "./model/Drug";
+import drugsList from "./config/drugsList";
 
 import fs from "fs";
 
-const drugs = [
-  new Drug("Doliprane", 20, 30),
-  new Drug("Herbal Tea", 10, 5),
-  new Drug("Fervex", 12, 35),
-  new Drug("Magic Pill", 15, 40),
-];
+const drugs = drugsList.map(
+  (drug) =>
+    new Drug(drug.name, drug.expiresIn, drug.benefit, drug.neverExpires),
+);
 const pharmacy = new Pharmacy(drugs);
 
 const log = [];
