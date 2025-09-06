@@ -1,19 +1,33 @@
-import { Drug, Pharmacy } from "./pharmacy";
+import { Pharmacy, Drug } from "./pharmacy";
+import drugsList from "./data/drugsList";
 
 import fs from "fs";
 
-const drugs = [
-  new Drug("Doliprane", 20, 30),
-  new Drug("Herbal Tea", 10, 5),
-  new Drug("Fervex", 12, 35),
-  new Drug("Magic Pill", 15, 40),
-];
+const drugs = drugsList.map(
+  (drug) =>
+    new Drug(
+      drug.name,
+      drug.expiresIn,
+      drug.benefit,
+      drug.defaultBenefitDegradation,
+      drug.degradationRules,
+      drug.benefitDropToZeroAfterExpiration,
+    ),
+);
 const pharmacy = new Pharmacy(drugs);
 
 const log = [];
 
 for (let elapsedDays = 0; elapsedDays < 30; elapsedDays++) {
-  log.push(JSON.parse(JSON.stringify(pharmacy.updateBenefitValue())));
+  const pharmacyValues = pharmacy.updateBenefitValue();
+
+  const sanitizedDrugsValues = pharmacyValues.map((drug) => ({
+    name: drug.name,
+    expiresIn: drug.expiresIn,
+    benefit: drug.benefit,
+  }));
+
+  log.push(JSON.parse(JSON.stringify(sanitizedDrugsValues)));
 }
 
 /* eslint-disable no-console */
