@@ -10,8 +10,8 @@ const drugs = drugsList.map(
       drug.name,
       drug.expiresIn,
       drug.benefit,
+      drug.defaultBenefitDegradation,
       drug.degradationRules,
-      drug.reverseDegradation,
       drug.benefitDropToZeroAfterExpiration,
     ),
 );

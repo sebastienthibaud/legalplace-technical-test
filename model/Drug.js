@@ -4,15 +4,15 @@ export class Drug {
     name,
     expiresIn,
     benefit,
+    defaultBenefitDegradation = -1,
     degradationRules = [],
-    reverseDegradation = false,
     benefitDropToZeroAfterExpiration = false,
   ) {
     this.name = name;
     this.expiresIn = expiresIn;
     this.benefit = benefit;
+    this.defaultBenefitDegradation = defaultBenefitDegradation;
     this.degradationRules = degradationRules;
-    this.reverseDegradation = reverseDegradation;
     this.benefitDropToZeroAfterExpiration = benefitDropToZeroAfterExpiration;
   }
 
@@ -38,12 +38,11 @@ export class Drug {
       return;
     }
 
-    const defaultDegradation = this.reverseDegradation ? 1 : -1;
     const currentDegradationRule = this.getCurrentDegradationRule();
 
     const degradation = currentDegradationRule
       ? currentDegradationRule.degradation
-      : defaultDegradation;
+      : this.defaultBenefitDegradation;
 
     const newBenefit = this.benefit + degradation;
 
